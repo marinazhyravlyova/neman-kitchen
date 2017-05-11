@@ -1,0 +1,270 @@
+
+/*---------------------------block-with-kitchens-----------------------------------*/
+
+.modal-content {
+    background-color: rgba(0, 0, 0, 0.78)!important;
+}
+.kitchen-description {
+    margin-left: -12px;
+    font-size: 15px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.154;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.сalculate-the-cost > a {
+    color: white;
+    margin-left: -9px;
+    font-size: 12px;
+    margin-left: 3px;
+}
+.сalculate-the-cost {
+    margin-top: 7px;
+    margin-left: -7px;
+    /* margin-bottom: -34px; */
+    padding-left: 23px;
+    padding-right: 13px;
+    padding-bottom: 0px;
+    padding-top: 1px;
+    background-color: #60a65a;
+    border: solid 1.4px black;
+}
+.kitchens {
+    background-color: rgba(47, 44, 46, 0.5);
+    height: auto;
+    margin-right: -11px!important;
+    padding-right: -12px;
+    margin-top: -77px;
+    z-index: 5;
+    position: relative;
+}
+.block-kitchen >div {
+    margin-bottom: 27px;
+}
+h4.kitchen-description {
+    font-weight: 600;
+}
+.modal-dialog {
+    z-index: 5555;
+}
+
+/*---------------------------block-with-reviews-----------------------------------*/
+
+.center-text {
+    margin-top: 39px;
+    text-align: center;
+    margin-bottom: 21px;
+}
+.header-text {
+    font-size: 42px;
+    font-family: "ArialRegular";
+    color: rgb(0, 0, 0);
+    line-height: 0.4;
+}
+.center-text > p {
+    margin-bottom: 21px;
+}
+.text-in-review{
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    text-align: left;
+}
+.blocks-review {
+    display: block;
+    overflow: hidden;
+}
+.blocks-review > img {
+    width: 100%;
+}
+p.text-in-review {
+    background-color: #9b9b9b;
+    margin-top: -32px;
+    width: 101/5%;
+    z-index: 1;
+    position: relative;
+    padding-left: 0ppx;
+    margin-left: -7px;
+    padding-left: 12px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+div#block-with-reviews >div {
+    background-color: white;
+}
+p.text-in-review > span {
+    margin-left: 26px;
+}
+element.style {
+}
+button#show, #show-kitchens {
+    margin-top: 7px;
+    margin-bottom: 18px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-bottom: 0px;
+    padding-top: 1px;
+    background-color: #60a65a;
+    border: solid 1.4px black;
+    color: white;
+    font-size: 18px;
+}
+@media (min-width: 768px)
+{
+  .modal-dialog {
+      width: 600px;
+      z-index: 5555;
+      margin: 30px auto;
+  }
+}
+
+/*-----------------------------footer---------------------------------*/
+
+div#footer {
+    background-image: url(../images/background_footer.png);
+    background-size: cover;
+}
+.form-area {
+    background-color: rgba(56, 55, 54, 0.82);
+    margin-top: 55px;
+    margin-bottom: 50px;
+}
+input#phone::-webkit-input-placeholder, input#phone-one::-webkit-input-placeholder {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+.formTitle, .msgs{
+  margin-top: 9px;
+  margin-bottom: 38px;
+  font-size: 17px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  line-height: 1.185;
+  text-align: center;
+  -moz-transform: matrix( 1.19950124688279,0,0,1.19950738916256,0,0);
+  -webkit-transform: matrix( 1.19950124688279,0,0,1.19950738916256,0,0);
+  -ms-transform: matrix( 1.19950124688279,0,0,1.19950738916256,0,0);
+}
+.application {
+    margin-left: 25px;
+    font-size: 11px;
+    width: 85%;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.111;
+    text-align: left;
+    -moz-transform: matrix( 1.19950124688279,0,0,1.19950738916256,0,0);
+    -webkit-transform: matrix( 1.19950124688279,0,0,1.19950738916256,0,0);
+    -ms-transform: matrix( 1.19950124688279,0,0,1.19950738916256,0,0);
+}
+.application > span{
+  color: #4e6589;
+}
+input#phone, #phone-one {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 102%;
+    margin-left: -4px;
+    padding-left: 30px;
+}
+input#back-call {
+    background-color: #60a65a;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 11px;
+    width: 102%;
+    margin-left: -4px;
+    margin-top: 34px;
+    margin-bottom: 23px;
+}
+form#thirdForm > .application, form#thirdForm2 > .application {
+    margin-bottom: 23px;
+}
+form#thirdForm, form#thirdForm2 {
+    margin-bottom: 45px;
+}
+
+/*---------------------------@media-----------------------------------*/
+
+@media (max-width: 768px) {
+  .modal-content {
+      margin-left: 15px;
+  }
+  p.header-text {
+    font-size: 18px;
+    line-height: 19px;
+    margin-bottom: 3px;
+  }
+  .center-text > img {
+      width: 100%;
+  }
+
+  .kitchen-description {
+      margin-left: -7px;
+      margin-bottom: 8px;
+      margin-top: 6px;
+  }
+  h4.kitchen-description {
+      margin-bottom: 1px;
+  }
+  .kitchens {
+      margin-top: -103px;
+
+  }
+  .formTitle, .msgs {
+      font-size: 12px;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  p.header-text {
+    font-size: 25px;
+  }
+  .center-text > img {
+      width: 100%;
+  }
+  .kitchen-description {
+      margin-bottom: 0px;
+      margin-top: -2px;
+      margin-left: -7px;
+  }
+  button.сalculate-the-cost {
+      margin-bottom: 4px;
+      margin-top: 2px;
+  }
+  button#show-kitchens, #show  {
+      margin-left: 139px;
+  }
+  .formTitle, .msgs {
+      font-size: 15px;
+   }
+ }
+ @media (min-width: 992px) and (max-width: 1200px) {
+   p.header-text {
+    font-size: 33px;
+  }
+  button.сalculate-the-cost {
+      margin-top: 3px;
+      margin-bottom: 1px;
+  }
+  .kitchen-description {
+      margin-left: -6px;
+      margin-top: 2px;
+      margin-bottom: 1px;
+      font-size: 11.6px;
+  }
+  .row.kitchens {
+      margin-top: -64px;
+  }
+  button#show-kitchens, #show {
+      margin-left: 220px;
+  }
+ }
